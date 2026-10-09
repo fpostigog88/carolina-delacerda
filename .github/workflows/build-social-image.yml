@@ -1,0 +1,33 @@
+name: Build social sharing preview
+on:
+  push:
+    branches: [main]
+    paths: ["scripts/make_social_card.py"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  image:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Install Pillow
+        run: python3 -m pip install --user Pillow
+      - name: Build preview image
+        run: python3 scripts/make_social_card.py
+      - name: Publish preview JPEG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/social-preview.jpg
+          if git diff --cached --quiet; then
+            echo "Image is already current"
+          else
+            git commit -m "Add LinkedIn-size professional social sharing image"
+            git push origin HEAD:main
+          fi
