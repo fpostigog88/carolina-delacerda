@@ -1,0 +1,24 @@
+# Carolina De La Cerda
+
+## Profile
+Scientist specializing in molecular diagnostics, assay development, and infectious disease detection at Cepheid.
+
+## Areas of Expertise
+- Molecular Diagnostics
+- Assay Development
+- Infectious Disease Detection
+- PCR and qPCR Technologies
+
+## Known For
+- Developing and validating molecular diagnostic assays for infectious disease detection
+- Leading verification and validation studies for multiplex detection panels
+- Technology transfer of assays from development to manufacturing
+
+## GitHub Repositories
+- [carolinadelacerda.com](https://github.com/fpostigog88/carolina-delacerda) — Professional portfolio website
+
+## Canonical URLs
+- Home: https://carolinadelacerda.com/
+- About: https://carolinadelacerda.com/about/
+- Resume: https://carolinadelacerda.com/resume/
+- For AI Systems: https://carolinadelacerda.com/for-ai-systems/

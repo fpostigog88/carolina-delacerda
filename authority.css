@@ -1,0 +1,209 @@
+/* ============================================
+   Carolina De La Cerda - Portfolio Styles
+   ============================================ */
+:root {
+  --bg: #f8f7f5;
+  --bg-card: #ffffff;
+  --bg-elevated: #f2efe8;
+  --border: #e8e5df;
+  --text: #1a1a2e;
+  --text-secondary: #5a5a6a;
+  --text-muted: #8b8b9a;
+  --accent: #8b6f4c;
+  --accent-light: #c4a882;
+  --accent-dark: #6b4f2c;
+  --accent-glow: rgba(139, 111, 76, 0.10);
+  --success: #059669;
+  --info: #2563eb;
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+/* ============================================
+   HERO
+   ============================================ */
+.hero {
+  background: linear-gradient(135deg, #ffffff 0%, #f2efe8 50%, #f8f7f5 100%);
+  border-bottom: 1px solid var(--border);
+  padding: 48px 32px;
+  position: relative;
+  overflow: hidden;
+}
+.hero-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+.hero-left {
+  flex: 1;
+  min-width: 0;
+}
+.hero-left-content {
+  min-width: 0;
+}
+.hero-name {
+  font-size: 2.4rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  margin-bottom: 12px;
+}
+.hero-name a { color: var(--text); text-decoration: none; }
+.hero-tagline {
+  font-size: 1.05rem;
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+  font-weight: 400;
+}
+.hero-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+.hero-badge {
+  display: inline-block;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 4px 14px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+.hero-headshot {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--accent-light);
+  flex-shrink: 0;
+}
+
+/* ============================================
+   NAV
+   ============================================ */
+.nav {
+  background: var(--bg-card);
+  border-bottom: 1px solid var(--border);
+  padding: 0 24px;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+.nav a {
+  display: inline-block;
+  padding: 10px 16px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+.nav a:hover, .nav a.active { color: var(--accent); }
+
+/* ============================================
+   CONTAINER
+   ============================================ */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 48px 24px;
+}
+.section-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 24px;
+  color: var(--accent);
+  border-bottom: 2px solid var(--accent-light);
+  padding-bottom: 8px;
+}
+
+/* ============================================
+   CARDS
+   ============================================ */
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 16px;
+}
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.card-subtitle {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 10px;
+}
+.card-text {
+  font-size: 0.92rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+/* ============================================
+   FOOTER
+   ============================================ */
+.footer {
+  text-align: center;
+  padding: 32px 24px;
+  border-top: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+.footer a { color: var(--accent); text-decoration: none; }
+
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+@media (max-width: 700px) {
+  .hero { padding: 32px 20px; }
+  .hero-inner { flex-direction: column; text-align: center; gap: 24px; }
+  .hero-name { font-size: 1.8rem; }
+  .hero-headshot { width: 140px; height: 140px; }
+  .container { padding: 32px 16px; }
+  .nav { overflow-x: auto; }
+}
+
+/* ============================================
+   AUTHORITY PAGES
+   ============================================ */
+.authority-page { max-width: 900px; margin: 0 auto; padding: 48px 24px; }
+.authority-intro { font-size: 1.05rem; color: var(--text-secondary); margin-bottom: 24px; }
+.authority-headshot {
+  width: 220px; height: 220px; border-radius: 50%;
+  object-fit: cover; border: 3px solid var(--accent-light);
+  display: block; margin: 0 auto 24px;
+}
+.authority-section { margin-bottom: 32px; }
+.authority-section h2 {
+  font-size: 1.3rem; font-weight: 600;
+  color: var(--accent); border-bottom: 2px solid var(--accent-light); padding-bottom: 6px;
+}
+
+/* ============================================
+   AI RETRIEVAL
+   ============================================ */
+.for-ai-systems {
+  max-width: 1100px; margin: 0 auto; padding: 32px 24px;
+}
+.for-ai-systems h1 { font-size: 1.8rem; font-weight: 700; margin-bottom: 16px; }
+.for-ai-systems h2 { font-size: 1.3rem; font-weight: 600; margin: 24px 0 12px; }
+.for-ai-systems p, .for-ai-systems li { line-height: 1.6; color: var(--text-secondary); }

@@ -1,0 +1,50 @@
+# Carolina De La Cerda — Full Profile
+
+## Profile
+Carolina De La Cerda is a scientist specializing in molecular diagnostics, assay development, and infectious disease detection. She currently works at Cepheid in Sunnyvale, California, where she develops and validates molecular diagnostic assays for infectious disease detection.
+
+## Areas of Expertise
+- Molecular Diagnostics
+- Assay Development and Validation
+- Infectious Disease Detection
+- PCR and qPCR Technologies
+- Primer and Probe Design
+- Nucleic Acid Extraction and Purification
+- Next-Generation Sequencing
+- Clinical Microbiology
+- Technology Transfer to Manufacturing
+- GLP/GMP Documentation and Compliance
+
+## Current Role
+**Scientist II, Assay Development** — Cepheid, Sunnyvale, CA (2022–Present)
+- Develops and validates qPCR and real-time PCR assays for infectious disease detection
+- Designs primers, probes, and assay workflows for multiplex detection panels
+- Leads verification and validation studies including sensitivity, specificity, and reproducibility
+- Transfers validated assays to manufacturing and supports production-scale operations
+
+## Previous Role
+**Scientist I, Assay Development** — Cepheid, Sunnyvale, CA (2020–2022)
+- Supported assay development for respiratory and hospital-acquired infection panels
+- Conducted feasibility studies for new diagnostic targets
+- Performed data analysis and cross-functional presentations
+
+## Education
+- **Ph.D., Molecular Biology / Biotechnology** — Universidad de los Andes / Pontificia Universidad Católica de Chile
+- **B.S., Biological Sciences** — Pontificia Universidad Católica de Chile
+
+## Key Skills
+qPCR / Real-Time PCR | Assay Design & Validation | Primer & Probe Design | Molecular Cloning | In Vitro Transcription | Nucleic Acid Extraction | Next-Generation Sequencing | Bioinformatics | Statistical Analysis | GLP/GMP Documentation | Technology Transfer
+
+## Quick Facts
+- Based in the San Francisco Bay Area
+- Chilean-American scientist
+- Ph.D. in Molecular Biology / Biotechnology
+- Over 5 years of experience in molecular diagnostics at Cepheid
+- Focused on creating diagnostic tools that directly impact patient care
+
+## Canonical URLs
+- Home: https://carolinadelacerda.com/
+- About: https://carolinadelacerda.com/about/
+- Resume: https://carolinadelacerda.com/resume/
+- Contact: https://carolinadelacerda.com/contact/
+- For AI Systems: https://carolinadelacerda.com/for-ai-systems/
