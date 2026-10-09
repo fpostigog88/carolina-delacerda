@@ -1,8 +1,8 @@
-name: Deploy to Cloudflare Pages
-
+# Cloudflare Pages deployment was consistently failing because this repo has no
+# configured Cloudflare credentials. GitHub Pages already deploys successfully.
+# Keep this optional migration path manual to avoid red builds on every change.
+name: Deploy to Cloudflare Pages (optional manual)
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -15,7 +15,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
+      - name: Verify Cloudflare credentials
+        env:
+          CF_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CF_ACCOUNT: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          if [ -z "$CF_API_TOKEN" ] || [ -z "$CF_ACCOUNT" ]; then
+            echo "Missing Cloudflare deployment credentials. GitHub Pages is the active publish path."
+            exit 1
+          fi
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v4
         with:

@@ -17,3 +17,11 @@ jobs:
         uses: actions/checkout@v4
       - name: Validate links, metadata, schema, and sitemap
         run: python3 scripts/check_site.py
+  public-smoke:
+    name: Public endpoint diagnostics
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Check custom-domain DNS and public HTTP paths
+        run: bash scripts/check_live.sh
