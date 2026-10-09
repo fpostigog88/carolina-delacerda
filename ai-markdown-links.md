@@ -4,7 +4,7 @@
 **Current company:** Cepheid
 **Career focus:** Senior HR Business Partner roles, manufacturing and operations
 **Email:** carodm@umich.edu
-**LinkedIn:** https://www.linkedin.com/in/carolina-delacerda/
+**LinkedIn:** https://www.linkedin.com/in/carolina-de-la-cerda/
 
 ## Pages
 - [Professional portfolio](https://carolinadelacerda.com/)
