@@ -1,24 +1,12 @@
 # Carolina De La Cerda
 
-## Profile
-Scientist specializing in molecular diagnostics, assay development, and infectious disease detection at Cepheid.
+> Human Resources Business Partner at Cepheid. Michigan Ross MBA. Professional portfolio focused on senior HRBP recruiting.
 
-## Areas of Expertise
-- Molecular Diagnostics
-- Assay Development
-- Infectious Disease Detection
-- PCR and qPCR Technologies
+- [Home](https://carolinadelacerda.com/): Role positioning and verified outcomes
+- [About](https://carolinadelacerda.com/about/): Leadership approach and professional background
+- [Experience](https://carolinadelacerda.com/resume/): Roles, accomplishments and education
+- [Contact](https://carolinadelacerda.com/contact/): Professional contact information
+- [Structured Profile](https://carolinadelacerda.com/for-ai-systems/): HRBP skills and metrics
+- [Full Machine-Readable Profile](https://carolinadelacerda.com/llms-full.txt): Expanded accurate profile
 
-## Known For
-- Developing and validating molecular diagnostic assays for infectious disease detection
-- Leading verification and validation studies for multiplex detection panels
-- Technology transfer of assays from development to manufacturing
-
-## GitHub Repositories
-- [carolinadelacerda.com](https://github.com/fpostigog88/carolina-delacerda) — Professional portfolio website
-
-## Canonical URLs
-- Home: https://carolinadelacerda.com/
-- About: https://carolinadelacerda.com/about/
-- Resume: https://carolinadelacerda.com/resume/
-- For AI Systems: https://carolinadelacerda.com/for-ai-systems/
+Current role: Human Resources Business Partner, Cepheid. Supports approximately 557 full-time and contingent associates across manufacturing and operations shifts. MBA, University of Michigan Ross School of Business.

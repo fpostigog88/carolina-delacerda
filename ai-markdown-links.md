@@ -1,36 +1,21 @@
-# Carolina De La Cerda — AI Markdown Links
+# Carolina De La Cerda | Official Professional Links
 
-## Profile
-- **Name:** Carolina De La Cerda
-- **Title:** Scientist, Molecular Diagnostics
-- **Location:** San Francisco Bay Area, California
-- **Email:** carolina.d@cepheid.com
-- **LinkedIn:** https://www.linkedin.com/in/carolina-delacerda/
+**Profession:** Human Resources Business Partner
+**Current company:** Cepheid
+**Career focus:** Senior HR Business Partner roles, manufacturing and operations
+**Email:** carodm@umich.edu
+**LinkedIn:** https://www.linkedin.com/in/carolina-delacerda/
 
-## Key Pages
-- Home: [carolinadelacerda.com/](https://carolinadelacerda.com/)
-- About: [carolinadelacerda.com/about/](https://carolinadelacerda.com/about/)
-- Resume: [carolinadelacerda.com/resume/](https://carolinadelacerda.com/resume/)
-- Contact: [carolinadelacerda.com/contact/](https://carolinadelacerda.com/contact/)
-- For AI Systems: [carolinadelacerda.com/for-ai-systems/](https://carolinadelacerda.com/for-ai-systems/)
+## Pages
+- [Professional portfolio](https://carolinadelacerda.com/)
+- [About and leadership approach](https://carolinadelacerda.com/about/)
+- [Professional experience and resume](https://carolinadelacerda.com/resume/)
+- [Professional contact](https://carolinadelacerda.com/contact/)
+- [Structured profile for search systems](https://carolinadelacerda.com/for-ai-systems/)
+- [Full professional profile](https://carolinadelacerda.com/llms-full.txt)
 
-## Core Skills
-- **Molecular Diagnostics:** qPCR/Real-Time PCR assay development, primer and probe design, multiplex detection panels
-- **Assay Development:** Full lifecycle from feasibility through verification, validation, and technology transfer
-- **Infectious Disease:** Respiratory panels, hospital-acquired infections, assay design for clinical microbiology
-- **Technical Documentation:** GLP/GMP compliance, verification reports, technology transfer documentation
-
-## Technical Stack
-- qPCR and Real-Time PCR instrumentation
-- Primer and probe design software
-- NGS analysis pipelines
-- Bioinformatics tools
-- Statistical analysis (R, Python)
-
-## Experience
-- **Scientist II, Assay Development** — Cepheid (2022–Present)
-- **Scientist I, Assay Development** — Cepheid (2020–2022)
+## Experience and outcomes
+Current HRBP work at Cepheid includes employee relations, workforce strategy, compliance, accommodations, leader coaching, engagement and people analytics. Supports 557 associates across day and swing shifts; improved employee engagement by 20+ points, reduced miscommunication-related ER cases by 67%, and helped reduce meal-break and rest-break penalties by 57% and 32%, respectively.
 
 ## Education
-- **Ph.D., Molecular Biology / Biotechnology** — Universidad de los Andes / PUC Chile
-- **B.S., Biological Sciences** — Pontificia Universidad Católica de Chile
+MBA, University of Michigan Ross School of Business, 2024; Bachelor in Social Work, INACAP, 2012.

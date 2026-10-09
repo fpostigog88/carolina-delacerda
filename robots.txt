@@ -1,22 +1,4 @@
-# Allow AI training and retrieval bots
-User-agent: GPTBot
-User-agent: ChatGPT-User
-User-agent: ClaudeBot
-User-agent: Claude-Web
-User-agent: anthropic-ai
-User-agent: PerplexityBot
-User-agent: Google-Extended
-User-agent: Googlebot
-User-agent: Bingbot
-User-agent: Applebot
-User-agent: Bytespider
-User-agent: Diffbot
-User-agent: FacebookBot
-User-agent: OAI-SearchBot
-User-agent: Imagesiftbot
-Allow: /
-
 User-agent: *
-Disallow: /
+Allow: /
 
 Sitemap: https://carolinadelacerda.com/sitemap.xml
