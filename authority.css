@@ -27,3 +27,8 @@
 .portrait-art .art-foot{margin-top:21px}
 .side-headshot{display:block;width:210px;height:210px;margin:0 auto 25px;border-radius:50%;object-fit:cover;object-position:center 25%;border:5px solid #f2ede7;box-shadow:0 0 0 1px #dce1df}
 @media(max-width:740px){#impact,#about,#experience{scroll-margin-top:132px}.hero-art.portrait-art{min-height:520px}.portrait-art .hero-headshot{width:192px;height:192px}.portrait-art .art-statement{font-size:1.9rem}}
+
+/* Recruiter-focused introduction and keyboard accessibility */
+.hero-role-target{margin:13px 0 19px;color:var(--muted);font-size:.96rem;font-weight:600;line-height:1.6;max-width:620px}
+a:focus-visible{outline:3px solid var(--rust);outline-offset:4px;border-radius:3px}
+@media print{.hero-role-target{color:#192b3d}}
