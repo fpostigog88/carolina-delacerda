@@ -76,18 +76,22 @@ def resolve(page, link):
 
 pages = {}
 for file in sorted(ROOT.rglob("*.html")):
+    # GitHub Pages serves 404.html as a real HTTP 404; it must not be indexed.
+    is_not_found = file.name == "404.html"
     doc = Page()
     doc.feed(file.read_text(encoding="utf-8"))
     pages[file.resolve()] = doc
     label = str(file.relative_to(ROOT))
     if (doc.title, doc.h1, doc.main) != (1, 1, 1):
         errors.append(f"{label}: expected one each of title, h1, main")
-    if not doc.meta.get("description") or not doc.meta.get("og:image"):
+    if not is_not_found and (not doc.meta.get("description") or not doc.meta.get("og:image")):
         errors.append(f"{label}: missing description or sharing image")
-    if len(doc.canonicals) != 1:
+    if not is_not_found and len(doc.canonicals) != 1:
         errors.append(f"{label}: missing or duplicate canonical")
-    if len(doc.schemas) != 1:
+    if not is_not_found and len(doc.schemas) != 1:
         errors.append(f"{label}: missing or duplicate schema JSON-LD")
+    if is_not_found and doc.meta.get("robots") != "noindex, follow":
+        errors.append("404.html: must not be indexed")
     for src in doc.schemas:
         try:
             schema = json.loads(src)
@@ -111,7 +115,7 @@ for file, doc in pages.items():
 try:
     tree = ElementTree.parse(ROOT / "sitemap.xml")
     urls = [n.text.strip() for n in tree.findall(".//{http://www.sitemaps.org/schemas/sitemap/0.9}loc")]
-    expected = {"https://" + DOMAIN + "/" + ("" if page == ROOT / "index.html" else page.parent.relative_to(ROOT).as_posix() + "/") for page in pages}
+    expected = {"https://" + DOMAIN + "/" + ("" if page == ROOT / "index.html" else page.parent.relative_to(ROOT).as_posix() + "/") for page in pages if page.name != "404.html"}
     if len(urls) != len(set(urls)) or set(urls) != expected:
         errors.append(f"Sitemap mismatch: missing {expected-set(urls)}, extra {set(urls)-expected}")
 except (OSError, ElementTree.ParseError) as exc:
